@@ -3,7 +3,7 @@ Forecaster
 
 Intrusion Estimation and Response 
 
--I also added "wireshark", "wireshark-gnome", and "gcc-c++" to the init script cause we need them.
+-I added "wireshark", "wireshark-gnome", and "gcc-c++" to the init script cause we need them.
 
 -modified the tcpwater config file to start in AUTO. this is because, no matter the mode, the water is always draining from the tank at a set rate. This is fine, but it keeps draining past 0%, and the sim starts at 0%, so we get negative numbers. It's a temp fix.
 
